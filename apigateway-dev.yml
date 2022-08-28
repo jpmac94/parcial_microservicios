@@ -12,7 +12,7 @@ spring:
         - id: movieRoute #Identificando la ruta del service de producto
           uri: http://localhost:8084/ #URL donde se hará el redirect segun el predicate definido
           predicates: #RReglas de análisis de una request
-            - Path=/movie/**
+            - Path=/movies/**
 eureka:
   client:
     service-url:
